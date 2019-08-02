@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunkyParty</title>
+    <link href="style/styleTest.css" rel="stylesheet"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+
+</head>
+<body style="background:black">
+
+
+<script>
+    $(function(){
+
+        $("#typing").typed({
+            strings: ["Party 04.08.19", " Вечірка 04.08.19", "Tərəf 04.08.19", "파티 04.08.19", "Fête 04.08.19", "Partito 04.08.19", "Fest 04.08.19","パーティー 04.08.19", "Вечарына 04.08.19" ],
+            typeSpeed: 20,
+            backDelay: 1000,
+            startDelay: 0,
+            loop: true,
+            loopCount: false,
+            showCursor:false,
+            contentType: 'text'
+        });
+
+    });
+</script>
+
+<div class="container-fluid center">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+             <span class="text text-center" id="typing"></span>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+
+</html>
